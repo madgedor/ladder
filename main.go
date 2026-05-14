@@ -14,7 +14,7 @@ import (
 
 const (
 	defaultAddr    = ":8080"
-	defaultTimeout = 30 * time.Second
+	defaultTimeout = 60 * time.Second // increased from 30s; some sites are slow to respond
 	version        = "dev"
 )
 
